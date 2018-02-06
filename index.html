@@ -33,7 +33,6 @@
                                     <label for="cityInput">City:</label>
                                     <input type="text" class="form-control" id="cityInput">
                                 </div>
-                                <!-- <button id="submit" class="btn btn-success right">Submit</button> -->
                             </form>
                         </div>
                         <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
@@ -69,8 +68,8 @@
                         <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
                             <!-- how do i get this centered? -->
                             <div class="button_group">
-                                <button id="filterButton" class="btn btn-primary button_style">Filter Results</button>
-                                <button id="filterButton" class="btn btn-danger button_style">Clear Filters</button>
+                                <button id="filterButton" class="btn btn-primary button_style" onclick="filterData()">Filter Results</button>
+                                <button id="filterButton" class="btn btn-danger button_style" onclick="resetFilters()">Clear Filters</button>
                             </div>
                         </div>
                         <div class="col-md-4 col-lg-4 col-xl-4">
