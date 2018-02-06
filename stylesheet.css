@@ -1,0 +1,10 @@
+.button_style{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button_group{
+    align-content: center;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
