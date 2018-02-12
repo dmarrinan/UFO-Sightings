@@ -5,8 +5,10 @@
 }
 
 .button_group{
-    align-content: center;
+    margin:0 auto;
+    display:inline-block;
 }
+
 tr:nth-child(even) {background-color: white;}
 
 .thead_style{
